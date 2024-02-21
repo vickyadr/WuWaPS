@@ -6,18 +6,20 @@
     "WeaponType": 1,
     "ModelId": 21010015,
     "TransformId": 1,
-    "Models": [ 21010015 ],
+    "Models": [
+      21010015
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
-      "Value": 54,
+      "Value": 47,
       "IsRatio": false
     },
     "FirstCurve": 1,
     "SecondPropId": {
-      "Id": 11,
-      "Value": 432,
-      "IsRatio": false
+      "Id": 10007,
+      "Value": 0.08100000023841858,
+      "IsRatio": true
     },
     "SecondCurve": 2,
     "ResonId": 21010015,
@@ -26,16 +28,40 @@
     "Desc": "WeaponConf_21010015_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "12%", "15%", "18%", "21%", "24%" ]
+        "ArrayString": [
+          "12.8%",
+          "16%",
+          "19.2%",
+          "22.4%",
+          "25.6%"
+        ]
       },
       {
-        "ArrayString": [ "8%", "10%", "12%", "14%", "16%" ]
+        "ArrayString": [
+          "8%",
+          "10%",
+          "12%",
+          "14%",
+          "16%"
+        ]
       },
       {
-        "ArrayString": [ "2", "2", "2", "2", "2" ]
+        "ArrayString": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ]
       },
       {
-        "ArrayString": [ "8", "8", "8", "8", "8" ]
+        "ArrayString": [
+          "12",
+          "12",
+          "12",
+          "12",
+          "12"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21010015_TypeDescription",
@@ -64,7 +90,10 @@
     "WeaponType": 2,
     "ModelId": 21020015,
     "TransformId": 2,
-    "Models": [ 21020015, 21120015 ],
+    "Models": [
+      21020015,
+      21120015
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -84,16 +113,40 @@
     "Desc": "WeaponConf_21020015_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "16%", "20%", "24%", "28%", "32%" ]
+        "ArrayString": [
+          "12.8%",
+          "16%",
+          "19.2%",
+          "22.4%",
+          "25.6%"
+        ]
       },
       {
-        "ArrayString": [ "8%", "10%", "12%", "14%", "16%" ]
+        "ArrayString": [
+          "6%",
+          "7.5%",
+          "9%",
+          "10.5%",
+          "12%"
+        ]
       },
       {
-        "ArrayString": [ "2", "2", "2", "2", "2" ]
+        "ArrayString": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ]
       },
       {
-        "ArrayString": [ "8", "8", "8", "8", "8" ]
+        "ArrayString": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21020015_TypeDescription",
@@ -122,7 +175,10 @@
     "WeaponType": 3,
     "ModelId": 21030015,
     "TransformId": 3,
-    "Models": [ 21030015, 21030015 ],
+    "Models": [
+      21030015,
+      21030015
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -142,16 +198,40 @@
     "Desc": "WeaponConf_21030015_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "12%", "15%", "18%", "21%", "24%" ]
+        "ArrayString": [
+          "12.8%",
+          "16%",
+          "19.2%",
+          "22.4%",
+          "25.6%"
+        ]
       },
       {
-        "ArrayString": [ "2.4%", "3%", "3.6%", "4.2%", "4.8%" ]
+        "ArrayString": [
+          "10%",
+          "12.5%",
+          "15%",
+          "17.5%",
+          "20%"
+        ]
       },
       {
-        "ArrayString": [ "5", "5", "5", "5", "5" ]
+        "ArrayString": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
       },
       {
-        "ArrayString": [ "8", "8", "8", "8", "8" ]
+        "ArrayString": [
+          "14",
+          "14",
+          "14",
+          "14",
+          "14"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21030015_TypeDescription",
@@ -180,7 +260,10 @@
     "WeaponType": 4,
     "ModelId": 21140015,
     "TransformId": 4,
-    "Models": [ 21140015, 21040015 ],
+    "Models": [
+      21140015,
+      21040015
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -189,9 +272,9 @@
     },
     "FirstCurve": 1,
     "SecondPropId": {
-      "Id": 11,
-      "Value": 864,
-      "IsRatio": false
+      "Id": 10007,
+      "Value": 0.08100000023841858,
+      "IsRatio": true
     },
     "SecondCurve": 2,
     "ResonId": 21040015,
@@ -200,19 +283,49 @@
     "Desc": "WeaponConf_21040015_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "8%", "10%", "12%", "14%", "16%" ]
+        "ArrayString": [
+          "12.8%",
+          "16%",
+          "19.2%",
+          "22.4%",
+          "25.6%"
+        ]
       },
       {
-        "ArrayString": [ "10%", "12.5%", "15%", "17.5%", "20%" ]
+        "ArrayString": [
+          "10%",
+          "12.5%",
+          "15%",
+          "17.5%",
+          "20%"
+        ]
       },
       {
-        "ArrayString": [ "8", "8", "8", "8", "8" ]
+        "ArrayString": [
+          "8",
+          "8",
+          "8",
+          "8",
+          "8"
+        ]
       },
       {
-        "ArrayString": [ "10%", "12.5%", "15%", "17.5%", "20%" ]
+        "ArrayString": [
+          "10%",
+          "12.5%",
+          "15%",
+          "17.5%",
+          "20%"
+        ]
       },
       {
-        "ArrayString": [ "8", "8", "8", "8", "8" ]
+        "ArrayString": [
+          "8",
+          "8",
+          "8",
+          "8",
+          "8"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21040015_TypeDescription",
@@ -241,7 +354,9 @@
     "WeaponType": 5,
     "ModelId": 21050015,
     "TransformId": 5,
-    "Models": [ 21050015 ],
+    "Models": [
+      21050015
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -250,9 +365,9 @@
     },
     "FirstCurve": 1,
     "SecondPropId": {
-      "Id": 11,
-      "Value": 1280,
-      "IsRatio": false
+      "Id": 10007,
+      "Value": 0.11999999731779099,
+      "IsRatio": true
     },
     "SecondCurve": 2,
     "ResonId": 21050015,
@@ -261,16 +376,40 @@
     "Desc": "WeaponConf_21050015_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "16%", "20%", "24%", "28%", "32%" ]
+        "ArrayString": [
+          "12.8%",
+          "16%",
+          "19.2%",
+          "22.4%",
+          "25.6%"
+        ]
       },
       {
-        "ArrayString": [ "3.2%", "4%", "4.8%", "5.6%", "6.4%" ]
+        "ArrayString": [
+          "3.2%",
+          "4%",
+          "4.8%",
+          "5.6%",
+          "6.4%"
+        ]
       },
       {
-        "ArrayString": [ "5", "5", "5", "5", "5" ]
+        "ArrayString": [
+          "5",
+          "5",
+          "5",
+          "5",
+          "5"
+        ]
       },
       {
-        "ArrayString": [ "8", "8", "8", "8", "8" ]
+        "ArrayString": [
+          "8",
+          "8",
+          "8",
+          "8",
+          "8"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21050015_TypeDescription",
@@ -299,7 +438,9 @@
     "WeaponType": 1,
     "ModelId": 21010024,
     "TransformId": 1,
-    "Models": [ 21010024 ],
+    "Models": [
+      21010024
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -319,10 +460,22 @@
     "Desc": "WeaponConf_21010024_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "8", "10", "12", "14", "16" ]
+        "ArrayString": [
+          "8",
+          "10",
+          "12",
+          "14",
+          "16"
+        ]
       },
       {
-        "ArrayString": [ "20", "20", "20", "20", "20" ]
+        "ArrayString": [
+          "20",
+          "20",
+          "20",
+          "20",
+          "20"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21010024_TypeDescription",
@@ -351,7 +504,10 @@
     "WeaponType": 2,
     "ModelId": 21020024,
     "TransformId": 2,
-    "Models": [ 21020024, 21120024 ],
+    "Models": [
+      21020024,
+      21120024
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -371,10 +527,22 @@
     "Desc": "WeaponConf_21020024_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "8", "10", "12", "14", "16" ]
+        "ArrayString": [
+          "8",
+          "10",
+          "12",
+          "14",
+          "16"
+        ]
       },
       {
-        "ArrayString": [ "20", "20", "20", "20", "20" ]
+        "ArrayString": [
+          "20",
+          "20",
+          "20",
+          "20",
+          "20"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21020024_TypeDescription",
@@ -403,7 +571,10 @@
     "WeaponType": 3,
     "ModelId": 21030024,
     "TransformId": 3,
-    "Models": [ 21030024, 21030024 ],
+    "Models": [
+      21030024,
+      21030024
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -423,10 +594,22 @@
     "Desc": "WeaponConf_21030024_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "8", "10", "12", "14", "16" ]
+        "ArrayString": [
+          "8",
+          "10",
+          "12",
+          "14",
+          "16"
+        ]
       },
       {
-        "ArrayString": [ "20", "20", "20", "20", "20" ]
+        "ArrayString": [
+          "20",
+          "20",
+          "20",
+          "20",
+          "20"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21030024_TypeDescription",
@@ -455,7 +638,10 @@
     "WeaponType": 4,
     "ModelId": 21140024,
     "TransformId": 4,
-    "Models": [ 21140024, 21040024 ],
+    "Models": [
+      21140024,
+      21040024
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -475,10 +661,22 @@
     "Desc": "WeaponConf_21040024_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "8", "10", "12", "14", "16" ]
+        "ArrayString": [
+          "8",
+          "10",
+          "12",
+          "14",
+          "16"
+        ]
       },
       {
-        "ArrayString": [ "20", "20", "20", "20", "20" ]
+        "ArrayString": [
+          "20",
+          "20",
+          "20",
+          "20",
+          "20"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21040024_TypeDescription",
@@ -507,7 +705,9 @@
     "WeaponType": 5,
     "ModelId": 21050024,
     "TransformId": 5,
-    "Models": [ 21050024 ],
+    "Models": [
+      21050024
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -527,10 +727,22 @@
     "Desc": "WeaponConf_21050024_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "8", "10", "12", "14", "16" ]
+        "ArrayString": [
+          "8",
+          "10",
+          "12",
+          "14",
+          "16"
+        ]
       },
       {
-        "ArrayString": [ "20", "20", "20", "20", "20" ]
+        "ArrayString": [
+          "20",
+          "20",
+          "20",
+          "20",
+          "20"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21050024_TypeDescription",
@@ -559,7 +771,9 @@
     "WeaponType": 1,
     "ModelId": 21010013,
     "TransformId": 1,
-    "Models": [ 21010013 ],
+    "Models": [
+      21010013
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -579,10 +793,22 @@
     "Desc": "WeaponConf_21010013_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "8%", "10%", "12%", "14%", "16%" ]
+        "ArrayString": [
+          "8%",
+          "10%",
+          "12%",
+          "14%",
+          "16%"
+        ]
       },
       {
-        "ArrayString": [ "5", "5", "5", "5", "5" ]
+        "ArrayString": [
+          "5",
+          "5",
+          "5",
+          "5",
+          "5"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21010013_TypeDescription",
@@ -611,7 +837,10 @@
     "WeaponType": 2,
     "ModelId": 21020013,
     "TransformId": 2,
-    "Models": [ 21020013, 21120013 ],
+    "Models": [
+      21020013,
+      21120013
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -631,10 +860,22 @@
     "Desc": "WeaponConf_21020013_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "8%", "10%", "12%", "14%", "16%" ]
+        "ArrayString": [
+          "8%",
+          "10%",
+          "12%",
+          "14%",
+          "16%"
+        ]
       },
       {
-        "ArrayString": [ "5", "5", "5", "5", "5" ]
+        "ArrayString": [
+          "5",
+          "5",
+          "5",
+          "5",
+          "5"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21020013_TypeDescription",
@@ -663,7 +904,10 @@
     "WeaponType": 3,
     "ModelId": 21030013,
     "TransformId": 3,
-    "Models": [ 21030013, 21030013 ],
+    "Models": [
+      21030013,
+      21030013
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -683,10 +927,22 @@
     "Desc": "WeaponConf_21030013_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "8%", "10%", "12%", "14%", "16%" ]
+        "ArrayString": [
+          "8%",
+          "10%",
+          "12%",
+          "14%",
+          "16%"
+        ]
       },
       {
-        "ArrayString": [ "5", "5", "5", "5", "5" ]
+        "ArrayString": [
+          "5",
+          "5",
+          "5",
+          "5",
+          "5"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21030013_TypeDescription",
@@ -715,7 +971,10 @@
     "WeaponType": 4,
     "ModelId": 21140013,
     "TransformId": 4,
-    "Models": [ 21140013, 21040013 ],
+    "Models": [
+      21140013,
+      21040013
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -735,10 +994,22 @@
     "Desc": "WeaponConf_21040013_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "8%", "10%", "12%", "14%", "16%" ]
+        "ArrayString": [
+          "8%",
+          "10%",
+          "12%",
+          "14%",
+          "16%"
+        ]
       },
       {
-        "ArrayString": [ "5", "5", "5", "5", "5" ]
+        "ArrayString": [
+          "5",
+          "5",
+          "5",
+          "5",
+          "5"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21040013_TypeDescription",
@@ -767,7 +1038,9 @@
     "WeaponType": 5,
     "ModelId": 21050013,
     "TransformId": 5,
-    "Models": [ 21050013 ],
+    "Models": [
+      21050013
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -787,10 +1060,22 @@
     "Desc": "WeaponConf_21050013_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "8%", "10%", "12%", "14%", "16%" ]
+        "ArrayString": [
+          "8%",
+          "10%",
+          "12%",
+          "14%",
+          "16%"
+        ]
       },
       {
-        "ArrayString": [ "5", "5", "5", "5", "5" ]
+        "ArrayString": [
+          "5",
+          "5",
+          "5",
+          "5",
+          "5"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21050013_TypeDescription",
@@ -819,7 +1104,9 @@
     "WeaponType": 1,
     "ModelId": 21010012,
     "TransformId": 1,
-    "Models": [ 21010012 ],
+    "Models": [
+      21010012
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -839,7 +1126,13 @@
     "Desc": "WeaponConf_21010012_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "5%", "6.25%", "7.5%", "8.75%", "10%" ]
+        "ArrayString": [
+          "5%",
+          "6.25%",
+          "7.5%",
+          "8.75%",
+          "10%"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21010012_TypeDescription",
@@ -868,7 +1161,10 @@
     "WeaponType": 2,
     "ModelId": 21020012,
     "TransformId": 2,
-    "Models": [ 21020012, 21120012 ],
+    "Models": [
+      21020012,
+      21120012
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -888,7 +1184,13 @@
     "Desc": "WeaponConf_21020012_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "5%", "6.25%", "7.5%", "8.75%", "10%" ]
+        "ArrayString": [
+          "5%",
+          "6.25%",
+          "7.5%",
+          "8.75%",
+          "10%"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21020012_TypeDescription",
@@ -917,7 +1219,10 @@
     "WeaponType": 3,
     "ModelId": 21030012,
     "TransformId": 3,
-    "Models": [ 21030012, 21030012 ],
+    "Models": [
+      21030012,
+      21030012
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -937,7 +1242,13 @@
     "Desc": "WeaponConf_21030012_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "5%", "6.25%", "7.5%", "8.75%", "10%" ]
+        "ArrayString": [
+          "5%",
+          "6.25%",
+          "7.5%",
+          "8.75%",
+          "10%"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21030012_TypeDescription",
@@ -966,7 +1277,10 @@
     "WeaponType": 4,
     "ModelId": 21140012,
     "TransformId": 4,
-    "Models": [ 21140012, 21040012 ],
+    "Models": [
+      21140012,
+      21040012
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -986,7 +1300,13 @@
     "Desc": "WeaponConf_21040012_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "5%", "6.25%", "7.5%", "8.75%", "10%" ]
+        "ArrayString": [
+          "5%",
+          "6.25%",
+          "7.5%",
+          "8.75%",
+          "10%"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21040012_TypeDescription",
@@ -1015,7 +1335,9 @@
     "WeaponType": 5,
     "ModelId": 21050012,
     "TransformId": 5,
-    "Models": [ 21050012 ],
+    "Models": [
+      21050012
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -1035,7 +1357,13 @@
     "Desc": "WeaponConf_21050012_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "5%", "6.25%", "7.5%", "8.75%", "10%" ]
+        "ArrayString": [
+          "5%",
+          "6.25%",
+          "7.5%",
+          "8.75%",
+          "10%"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21050012_TypeDescription",
@@ -1064,7 +1392,9 @@
     "WeaponType": 1,
     "ModelId": 21010011,
     "TransformId": 1,
-    "Models": [ 21010011 ],
+    "Models": [
+      21010011
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -1084,7 +1414,13 @@
     "Desc": "WeaponConf_21010011_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "4%", "5%", "6%", "7%", "8%" ]
+        "ArrayString": [
+          "4%",
+          "5%",
+          "6%",
+          "7%",
+          "8%"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21010011_TypeDescription",
@@ -1113,7 +1449,10 @@
     "WeaponType": 2,
     "ModelId": 21020011,
     "TransformId": 2,
-    "Models": [ 21020011, 21120011 ],
+    "Models": [
+      21020011,
+      21120011
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -1133,7 +1472,13 @@
     "Desc": "WeaponConf_21020011_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "4%", "5%", "6%", "7%", "8%" ]
+        "ArrayString": [
+          "4%",
+          "5%",
+          "6%",
+          "7%",
+          "8%"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21020011_TypeDescription",
@@ -1162,7 +1507,10 @@
     "WeaponType": 3,
     "ModelId": 21030011,
     "TransformId": 3,
-    "Models": [ 21030011, 21030011 ],
+    "Models": [
+      21030011,
+      21030011
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -1182,7 +1530,13 @@
     "Desc": "WeaponConf_21030011_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "4%", "5%", "6%", "7%", "8%" ]
+        "ArrayString": [
+          "4%",
+          "5%",
+          "6%",
+          "7%",
+          "8%"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21030011_TypeDescription",
@@ -1211,7 +1565,10 @@
     "WeaponType": 4,
     "ModelId": 21140011,
     "TransformId": 4,
-    "Models": [ 21140011, 21040011 ],
+    "Models": [
+      21140011,
+      21040011
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -1231,7 +1588,13 @@
     "Desc": "WeaponConf_21040011_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "4%", "5%", "6%", "7%", "8%" ]
+        "ArrayString": [
+          "4%",
+          "5%",
+          "6%",
+          "7%",
+          "8%"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21040011_TypeDescription",
@@ -1260,7 +1623,9 @@
     "WeaponType": 5,
     "ModelId": 21050011,
     "TransformId": 5,
-    "Models": [ 21050011 ],
+    "Models": [
+      21050011
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -1280,7 +1645,13 @@
     "Desc": "WeaponConf_21050011_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "4%", "5%", "6%", "7%", "8%" ]
+        "ArrayString": [
+          "4%",
+          "5%",
+          "6%",
+          "7%",
+          "8%"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21050011_TypeDescription",
@@ -1309,7 +1680,9 @@
     "WeaponType": 1,
     "ModelId": 21010023,
     "TransformId": 1,
-    "Models": [ 21010023 ],
+    "Models": [
+      21010023
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -1329,13 +1702,31 @@
     "Desc": "WeaponConf_21010023_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "3%", "3.75%", "4.5%", "5.25%", "6%" ]
+        "ArrayString": [
+          "3%",
+          "3.75%",
+          "4.5%",
+          "5.25%",
+          "6%"
+        ]
       },
       {
-        "ArrayString": [ "12", "12", "12", "12", "12" ]
+        "ArrayString": [
+          "12",
+          "12",
+          "12",
+          "12",
+          "12"
+        ]
       },
       {
-        "ArrayString": [ "1", "1", "1", "1", "1" ]
+        "ArrayString": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21010023_TypeDescription",
@@ -1364,7 +1755,10 @@
     "WeaponType": 2,
     "ModelId": 21020023,
     "TransformId": 2,
-    "Models": [ 21020023, 21120023 ],
+    "Models": [
+      21020023,
+      21120023
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -1384,13 +1778,31 @@
     "Desc": "WeaponConf_21020023_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "5%", "6.25%", "7.5%", "8.75%", "10%" ]
+        "ArrayString": [
+          "5%",
+          "6.25%",
+          "7.5%",
+          "8.75%",
+          "10%"
+        ]
       },
       {
-        "ArrayString": [ "20", "20", "20", "20", "20" ]
+        "ArrayString": [
+          "20",
+          "20",
+          "20",
+          "20",
+          "20"
+        ]
       },
       {
-        "ArrayString": [ "1", "1", "1", "1", "1" ]
+        "ArrayString": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21020023_TypeDescription",
@@ -1419,7 +1831,9 @@
     "WeaponType": 5,
     "ModelId": 21050023,
     "TransformId": 5,
-    "Models": [ 21050023 ],
+    "Models": [
+      21050023
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -1439,13 +1853,31 @@
     "Desc": "WeaponConf_21050023_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "5%", "6.25%", "7.5%", "8.75%", "10%" ]
+        "ArrayString": [
+          "5%",
+          "6.25%",
+          "7.5%",
+          "8.75%",
+          "10%"
+        ]
       },
       {
-        "ArrayString": [ "20", "20", "20", "20", "20" ]
+        "ArrayString": [
+          "20",
+          "20",
+          "20",
+          "20",
+          "20"
+        ]
       },
       {
-        "ArrayString": [ "1", "1", "1", "1", "1" ]
+        "ArrayString": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21050023_TypeDescription",
@@ -1474,7 +1906,9 @@
     "WeaponType": 1,
     "ModelId": 21010034,
     "TransformId": 1,
-    "Models": [ 21010034 ],
+    "Models": [
+      21010034
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -1494,22 +1928,58 @@
     "Desc": "WeaponConf_21010034_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "80%", "80%", "80%", "80%", "80%" ]
+        "ArrayString": [
+          "80%",
+          "80%",
+          "80%",
+          "80%",
+          "80%"
+        ]
       },
       {
-        "ArrayString": [ "12%", "15%", "18%", "21%", "24%" ]
+        "ArrayString": [
+          "12%",
+          "15%",
+          "18%",
+          "21%",
+          "24%"
+        ]
       },
       {
-        "ArrayString": [ "40%", "50%", "60%", "70%", "80%" ]
+        "ArrayString": [
+          "40%",
+          "50%",
+          "60%",
+          "70%",
+          "80%"
+        ]
       },
       {
-        "ArrayString": [ "5%", "6.25%", "7.5%", "8.75%", "10%" ]
+        "ArrayString": [
+          "5%",
+          "6.25%",
+          "7.5%",
+          "8.75%",
+          "10%"
+        ]
       },
       {
-        "ArrayString": [ "8", "8", "8", "8", "8" ]
+        "ArrayString": [
+          "8",
+          "8",
+          "8",
+          "8",
+          "8"
+        ]
       },
       {
-        "ArrayString": [ "1", "1", "1", "1", "1" ]
+        "ArrayString": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21010034_TypeDescription",
@@ -1538,7 +2008,10 @@
     "WeaponType": 2,
     "ModelId": 21020034,
     "TransformId": 2,
-    "Models": [ 21020034, 21120034 ],
+    "Models": [
+      21020034,
+      21120034
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -1558,19 +2031,49 @@
     "Desc": "WeaponConf_21020034_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "40%", "50%", "60%", "70%", "80%" ]
+        "ArrayString": [
+          "40%",
+          "50%",
+          "60%",
+          "70%",
+          "80%"
+        ]
       },
       {
-        "ArrayString": [ "24%", "30%", "36%", "42%", "48%" ]
+        "ArrayString": [
+          "24%",
+          "30%",
+          "36%",
+          "42%",
+          "48%"
+        ]
       },
       {
-        "ArrayString": [ "5%", "6.25%", "7.5%", "8.75%", "10%" ]
+        "ArrayString": [
+          "5%",
+          "6.25%",
+          "7.5%",
+          "8.75%",
+          "10%"
+        ]
       },
       {
-        "ArrayString": [ "8", "8", "8", "8", "8" ]
+        "ArrayString": [
+          "8",
+          "8",
+          "8",
+          "8",
+          "8"
+        ]
       },
       {
-        "ArrayString": [ "1", "1", "1", "1", "1" ]
+        "ArrayString": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21020034_TypeDescription",
@@ -1599,7 +2102,9 @@
     "WeaponType": 5,
     "ModelId": 21050034,
     "TransformId": 5,
-    "Models": [ 21050034 ],
+    "Models": [
+      21050034
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -1619,25 +2124,67 @@
     "Desc": "WeaponConf_21050034_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "60%", "60%", "60%", "60%", "60%" ]
+        "ArrayString": [
+          "60%",
+          "60%",
+          "60%",
+          "60%",
+          "60%"
+        ]
       },
       {
-        "ArrayString": [ "5%", "6.25%", "7.5%", "8.75%", "10%" ]
+        "ArrayString": [
+          "5%",
+          "6.25%",
+          "7.5%",
+          "8.75%",
+          "10%"
+        ]
       },
       {
-        "ArrayString": [ "8", "8", "8", "8", "8" ]
+        "ArrayString": [
+          "8",
+          "8",
+          "8",
+          "8",
+          "8"
+        ]
       },
       {
-        "ArrayString": [ "1", "1", "1", "1", "1" ]
+        "ArrayString": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
       },
       {
-        "ArrayString": [ "60%", "60%", "60%", "60%", "60%" ]
+        "ArrayString": [
+          "60%",
+          "60%",
+          "60%",
+          "60%",
+          "60%"
+        ]
       },
       {
-        "ArrayString": [ "12%", "15%", "18%", "21%", "24%" ]
+        "ArrayString": [
+          "12%",
+          "15%",
+          "18%",
+          "21%",
+          "24%"
+        ]
       },
       {
-        "ArrayString": [ "10", "10", "10", "10", "10" ]
+        "ArrayString": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21050034_TypeDescription",
@@ -1666,17 +2213,19 @@
     "WeaponType": 1,
     "ModelId": 21010044,
     "TransformId": 1,
-    "Models": [ 21010044 ],
+    "Models": [
+      21010044
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
-      "Value": 31,
+      "Value": 27,
       "IsRatio": false
     },
     "FirstCurve": 1,
     "SecondPropId": {
       "Id": 10010,
-      "Value": 0.10260000079870224,
+      "Value": 0.13680000603199005,
       "IsRatio": true
     },
     "SecondCurve": 2,
@@ -1686,13 +2235,31 @@
     "Desc": "WeaponConf_21010044_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "8%", "10%", "12%", "14%", "16%" ]
+        "ArrayString": [
+          "8%",
+          "10%",
+          "12%",
+          "14%",
+          "16%"
+        ]
       },
       {
-        "ArrayString": [ "15%", "18.75%", "22.5%", "26.25%", "30%" ]
+        "ArrayString": [
+          "15%",
+          "18.75%",
+          "22.5%",
+          "26.25%",
+          "30%"
+        ]
       },
       {
-        "ArrayString": [ "15", "15", "15", "15", "15" ]
+        "ArrayString": [
+          "15",
+          "15",
+          "15",
+          "15",
+          "15"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21010044_TypeDescription",
@@ -1721,7 +2288,10 @@
     "WeaponType": 2,
     "ModelId": 21020044,
     "TransformId": 2,
-    "Models": [ 21020044, 21120044 ],
+    "Models": [
+      21020044,
+      21120044
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -1741,10 +2311,22 @@
     "Desc": "WeaponConf_21020044_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "15%", "18.75%", "22.5%", "26.25%", "30%" ]
+        "ArrayString": [
+          "15%",
+          "18.75%",
+          "22.5%",
+          "26.25%",
+          "30%"
+        ]
       },
       {
-        "ArrayString": [ "15", "15", "15", "15", "15" ]
+        "ArrayString": [
+          "15",
+          "15",
+          "15",
+          "15",
+          "15"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21020044_TypeDescription",
@@ -1773,7 +2355,10 @@
     "WeaponType": 3,
     "ModelId": 21030044,
     "TransformId": 3,
-    "Models": [ 21030044, 21030044 ],
+    "Models": [
+      21030044,
+      21030044
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -1793,10 +2378,22 @@
     "Desc": "WeaponConf_21030044_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "20%", "25%", "30%", "35%", "40%" ]
+        "ArrayString": [
+          "20%",
+          "25%",
+          "30%",
+          "35%",
+          "40%"
+        ]
       },
       {
-        "ArrayString": [ "15", "15", "15", "15", "15" ]
+        "ArrayString": [
+          "15",
+          "15",
+          "15",
+          "15",
+          "15"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21030044_TypeDescription",
@@ -1825,7 +2422,10 @@
     "WeaponType": 4,
     "ModelId": 21140044,
     "TransformId": 4,
-    "Models": [ 21140044, 21040044 ],
+    "Models": [
+      21140044,
+      21040044
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -1834,8 +2434,8 @@
     },
     "FirstCurve": 1,
     "SecondPropId": {
-      "Id": 10007,
-      "Value": 0.1080000028014183,
+      "Id": 10010,
+      "Value": 0.13680000603199005,
       "IsRatio": true
     },
     "SecondCurve": 2,
@@ -1845,10 +2445,22 @@
     "Desc": "WeaponConf_21040044_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "20%", "25%", "30%", "35%", "40%" ]
+        "ArrayString": [
+          "20%",
+          "25%",
+          "30%",
+          "35%",
+          "40%"
+        ]
       },
       {
-        "ArrayString": [ "15", "15", "15", "15", "15" ]
+        "ArrayString": [
+          "15",
+          "15",
+          "15",
+          "15",
+          "15"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21040044_TypeDescription",
@@ -1877,7 +2489,9 @@
     "WeaponType": 5,
     "ModelId": 21050044,
     "TransformId": 5,
-    "Models": [ 21050044 ],
+    "Models": [
+      21050044
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -1886,7 +2500,7 @@
     },
     "FirstCurve": 1,
     "SecondPropId": {
-      "Id": 10002,
+      "Id": 10007,
       "Value": 0.08100000023841858,
       "IsRatio": true
     },
@@ -1897,13 +2511,31 @@
     "Desc": "WeaponConf_21050044_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "8%", "10%", "12%", "14%", "16%" ]
+        "ArrayString": [
+          "8%",
+          "10%",
+          "12%",
+          "14%",
+          "16%"
+        ]
       },
       {
-        "ArrayString": [ "15%", "18.75%", "22.5%", "26.25%", "30%" ]
+        "ArrayString": [
+          "15%",
+          "18.75%",
+          "22.5%",
+          "26.25%",
+          "30%"
+        ]
       },
       {
-        "ArrayString": [ "15", "15", "15", "15", "15" ]
+        "ArrayString": [
+          "15",
+          "15",
+          "15",
+          "15",
+          "15"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21050044_TypeDescription",
@@ -1932,7 +2564,9 @@
     "WeaponType": 1,
     "ModelId": 21010043,
     "TransformId": 1,
-    "Models": [ 21010043 ],
+    "Models": [
+      21010043
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -1952,13 +2586,31 @@
     "Desc": "WeaponConf_21010043_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "8", "9", "10", "11", "12" ]
+        "ArrayString": [
+          "8",
+          "9",
+          "10",
+          "11",
+          "12"
+        ]
       },
       {
-        "ArrayString": [ "20", "20", "20", "20", "20" ]
+        "ArrayString": [
+          "20",
+          "20",
+          "20",
+          "20",
+          "20"
+        ]
       },
       {
-        "ArrayString": [ "1", "1", "1", "1", "1" ]
+        "ArrayString": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21010043_TypeDescription",
@@ -1987,7 +2639,10 @@
     "WeaponType": 2,
     "ModelId": 21020043,
     "TransformId": 2,
-    "Models": [ 21020043, 21120043 ],
+    "Models": [
+      21020043,
+      21120043
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -2007,13 +2662,31 @@
     "Desc": "WeaponConf_21020043_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "8", "9", "10", "11", "12" ]
+        "ArrayString": [
+          "8",
+          "9",
+          "10",
+          "11",
+          "12"
+        ]
       },
       {
-        "ArrayString": [ "20", "20", "20", "20", "20" ]
+        "ArrayString": [
+          "20",
+          "20",
+          "20",
+          "20",
+          "20"
+        ]
       },
       {
-        "ArrayString": [ "1", "1", "1", "1", "1" ]
+        "ArrayString": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21020043_TypeDescription",
@@ -2042,7 +2715,9 @@
     "WeaponType": 5,
     "ModelId": 21050043,
     "TransformId": 5,
-    "Models": [ 21050043 ],
+    "Models": [
+      21050043
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -2062,13 +2737,31 @@
     "Desc": "WeaponConf_21050043_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "8", "9", "10", "11", "12" ]
+        "ArrayString": [
+          "8",
+          "9",
+          "10",
+          "11",
+          "12"
+        ]
       },
       {
-        "ArrayString": [ "20", "20", "20", "20", "20" ]
+        "ArrayString": [
+          "20",
+          "20",
+          "20",
+          "20",
+          "20"
+        ]
       },
       {
-        "ArrayString": [ "1", "1", "1", "1", "1" ]
+        "ArrayString": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21050043_TypeDescription",
@@ -2097,7 +2790,9 @@
     "WeaponType": 1,
     "ModelId": 21010053,
     "TransformId": 1,
-    "Models": [ 21010053 ],
+    "Models": [
+      21010053
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -2117,7 +2812,13 @@
     "Desc": "WeaponConf_21010053_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "12%", "15%", "18%", "21%", "24%" ]
+        "ArrayString": [
+          "12%",
+          "15%",
+          "18%",
+          "21%",
+          "24%"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21010053_TypeDescription",
@@ -2146,7 +2847,10 @@
     "WeaponType": 2,
     "ModelId": 21020053,
     "TransformId": 2,
-    "Models": [ 21020053, 21120053 ],
+    "Models": [
+      21020053,
+      21120053
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -2166,7 +2870,13 @@
     "Desc": "WeaponConf_21020053_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "12%", "15%", "18%", "21%", "24%" ]
+        "ArrayString": [
+          "12%",
+          "15%",
+          "18%",
+          "21%",
+          "24%"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21020053_TypeDescription",
@@ -2195,7 +2905,10 @@
     "WeaponType": 3,
     "ModelId": 21030053,
     "TransformId": 3,
-    "Models": [ 21030053, 21030053 ],
+    "Models": [
+      21030053,
+      21030053
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -2215,7 +2928,13 @@
     "Desc": "WeaponConf_21030053_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "12%", "15%", "18%", "21%", "24%" ]
+        "ArrayString": [
+          "12%",
+          "15%",
+          "18%",
+          "21%",
+          "24%"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21030053_TypeDescription",
@@ -2244,17 +2963,20 @@
     "WeaponType": 4,
     "ModelId": 21140053,
     "TransformId": 4,
-    "Models": [ 21140053, 21040053 ],
+    "Models": [
+      21140053,
+      21040053
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
-      "Value": 26,
+      "Value": 24,
       "IsRatio": false
     },
     "FirstCurve": 1,
     "SecondPropId": {
       "Id": 10010,
-      "Value": 0.06840000301599503,
+      "Value": 0.08550000190734863,
       "IsRatio": true
     },
     "SecondCurve": 2,
@@ -2264,7 +2986,13 @@
     "Desc": "WeaponConf_21040053_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "12%", "15%", "18%", "21%", "24%" ]
+        "ArrayString": [
+          "12%",
+          "15%",
+          "18%",
+          "21%",
+          "24%"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21040053_TypeDescription",
@@ -2293,7 +3021,9 @@
     "WeaponType": 5,
     "ModelId": 21050053,
     "TransformId": 5,
-    "Models": [ 21050053 ],
+    "Models": [
+      21050053
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -2313,7 +3043,13 @@
     "Desc": "WeaponConf_21050053_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "12%", "15%", "18%", "21%", "24%" ]
+        "ArrayString": [
+          "12%",
+          "15%",
+          "18%",
+          "21%",
+          "24%"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21050053_TypeDescription",
@@ -2342,7 +3078,9 @@
     "WeaponType": 1,
     "ModelId": 21010064,
     "TransformId": 1,
-    "Models": [ 21010064 ],
+    "Models": [
+      21010064
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -2362,22 +3100,58 @@
     "Desc": "WeaponConf_21010064_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "12", "12", "12", "12", "12" ]
+        "ArrayString": [
+          "12",
+          "12",
+          "12",
+          "12",
+          "12"
+        ]
       },
       {
-        "ArrayString": [ "2", "2", "2", "2", "2" ]
+        "ArrayString": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ]
       },
       {
-        "ArrayString": [ "3%", "3.75%", "4.5%", "5.25%", "6%" ]
+        "ArrayString": [
+          "3%",
+          "3.75%",
+          "4.5%",
+          "5.25%",
+          "6%"
+        ]
       },
       {
-        "ArrayString": [ "4", "4", "4", "4", "4" ]
+        "ArrayString": [
+          "4",
+          "4",
+          "4",
+          "4",
+          "4"
+        ]
       },
       {
-        "ArrayString": [ "4", "4", "4", "4", "4" ]
+        "ArrayString": [
+          "4",
+          "4",
+          "4",
+          "4",
+          "4"
+        ]
       },
       {
-        "ArrayString": [ "6", "6", "6", "6", "6" ]
+        "ArrayString": [
+          "6",
+          "6",
+          "6",
+          "6",
+          "6"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21010064_TypeDescription",
@@ -2406,7 +3180,10 @@
     "WeaponType": 2,
     "ModelId": 21020064,
     "TransformId": 2,
-    "Models": [ 21020064, 21120064 ],
+    "Models": [
+      21020064,
+      21120064
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -2426,28 +3203,76 @@
     "Desc": "WeaponConf_21020064_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "6", "6", "6", "6", "6" ]
+        "ArrayString": [
+          "6",
+          "6",
+          "6",
+          "6",
+          "6"
+        ]
       },
       {
-        "ArrayString": [ "2%", "2.5%", "3%", "3.5%", "4%" ]
+        "ArrayString": [
+          "2%",
+          "2.5%",
+          "3%",
+          "3.5%",
+          "4%"
+        ]
       },
       {
-        "ArrayString": [ "6", "6", "6", "6", "6" ]
+        "ArrayString": [
+          "6",
+          "6",
+          "6",
+          "6",
+          "6"
+        ]
       },
       {
-        "ArrayString": [ "12", "12", "12", "12", "12" ]
+        "ArrayString": [
+          "12",
+          "12",
+          "12",
+          "12",
+          "12"
+        ]
       },
       {
-        "ArrayString": [ "1", "1", "1", "1", "1" ]
+        "ArrayString": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
       },
       {
-        "ArrayString": [ "2", "2", "2", "2", "2" ]
+        "ArrayString": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ]
       },
       {
-        "ArrayString": [ "1", "1", "1", "1", "1" ]
+        "ArrayString": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
       },
       {
-        "ArrayString": [ "6", "6", "6", "6", "6" ]
+        "ArrayString": [
+          "6",
+          "6",
+          "6",
+          "6",
+          "6"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21020064_TypeDescription",
@@ -2476,7 +3301,10 @@
     "WeaponType": 3,
     "ModelId": 21030064,
     "TransformId": 3,
-    "Models": [ 21030064, 21030064 ],
+    "Models": [
+      21030064,
+      21030064
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -2496,13 +3324,31 @@
     "Desc": "WeaponConf_21030064_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "4%", "5%", "6%", "7%", "8%" ]
+        "ArrayString": [
+          "4%",
+          "5%",
+          "6%",
+          "7%",
+          "8%"
+        ]
       },
       {
-        "ArrayString": [ "8", "8", "8", "8", "8" ]
+        "ArrayString": [
+          "8",
+          "8",
+          "8",
+          "8",
+          "8"
+        ]
       },
       {
-        "ArrayString": [ "3", "3", "3", "3", "3" ]
+        "ArrayString": [
+          "3",
+          "3",
+          "3",
+          "3",
+          "3"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21030064_TypeDescription",
@@ -2531,7 +3377,9 @@
     "WeaponType": 5,
     "ModelId": 21050064,
     "TransformId": 5,
-    "Models": [ 21050064 ],
+    "Models": [
+      21050064
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -2551,19 +3399,49 @@
     "Desc": "WeaponConf_21050064_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "3%", "3.5%", "4%", "4.5%", "5%" ]
+        "ArrayString": [
+          "3%",
+          "3.5%",
+          "4%",
+          "4.5%",
+          "5%"
+        ]
       },
       {
-        "ArrayString": [ "8", "8", "8", "8", "8" ]
+        "ArrayString": [
+          "8",
+          "8",
+          "8",
+          "8",
+          "8"
+        ]
       },
       {
-        "ArrayString": [ "3", "3", "3", "3", "3" ]
+        "ArrayString": [
+          "3",
+          "3",
+          "3",
+          "3",
+          "3"
+        ]
       },
       {
-        "ArrayString": [ "0.6", "0.6", "0.6", "0.6", "0.6" ]
+        "ArrayString": [
+          "0.6",
+          "0.6",
+          "0.6",
+          "0.6",
+          "0.6"
+        ]
       },
       {
-        "ArrayString": [ "1", "1", "1", "1", "1" ]
+        "ArrayString": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21050064_TypeDescription",
@@ -2592,7 +3470,10 @@
     "WeaponType": 3,
     "ModelId": 21030023,
     "TransformId": 3,
-    "Models": [ 21030023, 21030023 ],
+    "Models": [
+      21030023,
+      21030023
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -2612,13 +3493,31 @@
     "Desc": "WeaponConf_21030023_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "1.6%", "2%", "2.4%", "2.8%", "3.2%" ]
+        "ArrayString": [
+          "1.6%",
+          "2%",
+          "2.4%",
+          "2.8%",
+          "3.2%"
+        ]
       },
       {
-        "ArrayString": [ "6", "6", "6", "6", "6" ]
+        "ArrayString": [
+          "6",
+          "6",
+          "6",
+          "6",
+          "6"
+        ]
       },
       {
-        "ArrayString": [ "1", "1", "1", "1", "1" ]
+        "ArrayString": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21030023_TypeDescription",
@@ -2647,7 +3546,10 @@
     "WeaponType": 4,
     "ModelId": 21140023,
     "TransformId": 4,
-    "Models": [ 21140023, 21040023 ],
+    "Models": [
+      21140023,
+      21040023
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -2667,13 +3569,31 @@
     "Desc": "WeaponConf_21040023_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "0.5%", "0.65%", "0.8%", "0.95%", "1.1%" ]
+        "ArrayString": [
+          "0.5%",
+          "0.65%",
+          "0.8%",
+          "0.95%",
+          "1.1%"
+        ]
       },
       {
-        "ArrayString": [ "3", "3", "3", "3", "3" ]
+        "ArrayString": [
+          "3",
+          "3",
+          "3",
+          "3",
+          "3"
+        ]
       },
       {
-        "ArrayString": [ "1", "1", "1", "1", "1" ]
+        "ArrayString": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21040023_TypeDescription",
@@ -2702,7 +3622,10 @@
     "WeaponType": 3,
     "ModelId": 21030034,
     "TransformId": 3,
-    "Models": [ 21030034, 21030034 ],
+    "Models": [
+      21030034,
+      21030034
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -2722,22 +3645,58 @@
     "Desc": "WeaponConf_21030034_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "5", "5", "5", "5", "5" ]
+        "ArrayString": [
+          "5",
+          "5",
+          "5",
+          "5",
+          "5"
+        ]
       },
       {
-        "ArrayString": [ "6%", "7.5%", "9%", "10.5%", "12%" ]
+        "ArrayString": [
+          "6%",
+          "7.5%",
+          "9%",
+          "10.5%",
+          "12%"
+        ]
       },
       {
-        "ArrayString": [ "2", "2", "2", "2", "2" ]
+        "ArrayString": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ]
       },
       {
-        "ArrayString": [ "8", "8", "8", "8", "8" ]
+        "ArrayString": [
+          "8",
+          "8",
+          "8",
+          "8",
+          "8"
+        ]
       },
       {
-        "ArrayString": [ "1", "1", "1", "1", "1" ]
+        "ArrayString": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
       },
       {
-        "ArrayString": [ "5%", "6.25%", "7.5%", "8.75%", "10%" ]
+        "ArrayString": [
+          "5%",
+          "6.25%",
+          "7.5%",
+          "8.75%",
+          "10%"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21030034_TypeDescription",
@@ -2766,7 +3725,10 @@
     "WeaponType": 4,
     "ModelId": 21140034,
     "TransformId": 4,
-    "Models": [ 21140034, 21040034 ],
+    "Models": [
+      21140034,
+      21040034
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -2786,22 +3748,58 @@
     "Desc": "WeaponConf_21040034_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "8%", "10%", "12%", "14%", "16%" ]
+        "ArrayString": [
+          "8%",
+          "10%",
+          "12%",
+          "14%",
+          "16%"
+        ]
       },
       {
-        "ArrayString": [ "50%", "62.5%", "75%", "87.5%", "100%" ]
+        "ArrayString": [
+          "50%",
+          "62.5%",
+          "75%",
+          "87.5%",
+          "100%"
+        ]
       },
       {
-        "ArrayString": [ "8", "8", "8", "8", "8" ]
+        "ArrayString": [
+          "8",
+          "8",
+          "8",
+          "8",
+          "8"
+        ]
       },
       {
-        "ArrayString": [ "5%", "6.25%", "7.5%", "8.75%", "10%" ]
+        "ArrayString": [
+          "5%",
+          "6.25%",
+          "7.5%",
+          "8.75%",
+          "10%"
+        ]
       },
       {
-        "ArrayString": [ "6", "6", "6", "6", "6" ]
+        "ArrayString": [
+          "6",
+          "6",
+          "6",
+          "6",
+          "6"
+        ]
       },
       {
-        "ArrayString": [ "1", "1", "1", "1", "1" ]
+        "ArrayString": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21040034_TypeDescription",
@@ -2830,7 +3828,9 @@
     "WeaponType": 1,
     "ModelId": 21010074,
     "TransformId": 1,
-    "Models": [ 21010074 ],
+    "Models": [
+      21010074
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -2850,16 +3850,40 @@
     "Desc": "WeaponConf_21010074_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "10%", "15.5%", "21%", "26.5%", "32%" ]
+        "ArrayString": [
+          "10%",
+          "15.5%",
+          "21%",
+          "26.5%",
+          "32%"
+        ]
       },
       {
-        "ArrayString": [ "18%", "28%", "38%", "48%", "58%" ]
+        "ArrayString": [
+          "18%",
+          "28%",
+          "38%",
+          "48%",
+          "58%"
+        ]
       },
       {
-        "ArrayString": [ "10", "10", "10", "10", "10" ]
+        "ArrayString": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10"
+        ]
       },
       {
-        "ArrayString": [ "3", "3", "3", "3", "3" ]
+        "ArrayString": [
+          "3",
+          "3",
+          "3",
+          "3",
+          "3"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21010074_TypeDescription",
@@ -2888,7 +3912,10 @@
     "WeaponType": 2,
     "ModelId": 21020074,
     "TransformId": 2,
-    "Models": [ 21020074, 21120074 ],
+    "Models": [
+      21020074,
+      21120074
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -2908,10 +3935,22 @@
     "Desc": "WeaponConf_21020074_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "20%", "31%", "42%", "53%", "64%" ]
+        "ArrayString": [
+          "20%",
+          "31%",
+          "42%",
+          "53%",
+          "64%"
+        ]
       },
       {
-        "ArrayString": [ "10", "10", "10", "10", "10" ]
+        "ArrayString": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21020074_TypeDescription",
@@ -2940,7 +3979,10 @@
     "WeaponType": 3,
     "ModelId": 21030074,
     "TransformId": 3,
-    "Models": [ 21030074, 21030074 ],
+    "Models": [
+      21030074,
+      21030074
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -2960,13 +4002,31 @@
     "Desc": "WeaponConf_21030074_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "7%", "11%", "15%", "19%", "23%" ]
+        "ArrayString": [
+          "7%",
+          "11%",
+          "15%",
+          "19%",
+          "23%"
+        ]
       },
       {
-        "ArrayString": [ "10", "10", "10", "10", "10" ]
+        "ArrayString": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10"
+        ]
       },
       {
-        "ArrayString": [ "3", "3", "3", "3", "3" ]
+        "ArrayString": [
+          "3",
+          "3",
+          "3",
+          "3",
+          "3"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21030074_TypeDescription",
@@ -2995,7 +4055,10 @@
     "WeaponType": 4,
     "ModelId": 21140074,
     "TransformId": 4,
-    "Models": [ 21140074, 21040074 ],
+    "Models": [
+      21140074,
+      21040074
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -3015,10 +4078,22 @@
     "Desc": "WeaponConf_21040074_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "18%", "27%", "36%", "45%", "54%" ]
+        "ArrayString": [
+          "18%",
+          "27%",
+          "36%",
+          "45%",
+          "54%"
+        ]
       },
       {
-        "ArrayString": [ "15", "15", "15", "15", "15" ]
+        "ArrayString": [
+          "15",
+          "15",
+          "15",
+          "15",
+          "15"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21040074_TypeDescription",
@@ -3047,7 +4122,9 @@
     "WeaponType": 5,
     "ModelId": 21050074,
     "TransformId": 5,
-    "Models": [ 21050074 ],
+    "Models": [
+      21050074
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -3067,10 +4144,22 @@
     "Desc": "WeaponConf_21050074_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "15%", "23.25%", "31.5%", "39.75%", "48%" ]
+        "ArrayString": [
+          "15%",
+          "23.25%",
+          "31.5%",
+          "39.75%",
+          "48%"
+        ]
       },
       {
-        "ArrayString": [ "15", "15", "15", "15", "15" ]
+        "ArrayString": [
+          "15",
+          "15",
+          "15",
+          "15",
+          "15"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21050074_TypeDescription",
@@ -3099,7 +4188,9 @@
     "WeaponType": 1,
     "ModelId": 21010016,
     "TransformId": 1,
-    "Models": [ 21010016 ],
+    "Models": [
+      21010016
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -3119,16 +4210,40 @@
     "Desc": "WeaponConf_21010016_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "12%", "15%", "18%", "21%", "24%" ]
+        "ArrayString": [
+          "12%",
+          "15%",
+          "18%",
+          "21%",
+          "24%"
+        ]
       },
       {
-        "ArrayString": [ "24%", "30%", "36%", "42%", "48%" ]
+        "ArrayString": [
+          "24%",
+          "30%",
+          "36%",
+          "42%",
+          "48%"
+        ]
       },
       {
-        "ArrayString": [ "2", "2", "2", "2", "2" ]
+        "ArrayString": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ]
       },
       {
-        "ArrayString": [ "10", "10", "10", "10", "10" ]
+        "ArrayString": [
+          "14",
+          "14",
+          "14",
+          "14",
+          "14"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21010016_TypeDescription",
@@ -3157,7 +4272,9 @@
     "WeaponType": 5,
     "ModelId": 21050016,
     "TransformId": 5,
-    "Models": [ 21050016 ],
+    "Models": [
+      21050016
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -3177,16 +4294,49 @@
     "Desc": "WeaponConf_21050016_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "12%", "15%", "18%", "21%", "24%" ]
+        "ArrayString": [
+          "12%",
+          "15%",
+          "18%",
+          "21%",
+          "24%"
+        ]
       },
       {
-        "ArrayString": [ "20%", "25%", "30%", "35%", "40%" ]
+        "ArrayString": [
+          "12%",
+          "15%",
+          "18%",
+          "21%",
+          "24%"
+        ]
       },
       {
-        "ArrayString": [ "2", "2", "2", "2", "2" ]
+        "ArrayString": [
+          "12%",
+          "15%",
+          "18%",
+          "21%",
+          "24%"
+        ]
       },
       {
-        "ArrayString": [ "18", "18", "18", "18", "18" ]
+        "ArrayString": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ]
+      },
+      {
+        "ArrayString": [
+          "5",
+          "5",
+          "5",
+          "5",
+          "5"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21050016_TypeDescription",
@@ -3215,7 +4365,10 @@
     "WeaponType": 4,
     "ModelId": 21140064,
     "TransformId": 4,
-    "Models": [ 21140064, 21040064 ],
+    "Models": [
+      21140064,
+      21040064
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -3235,16 +4388,40 @@
     "Desc": "WeaponConf_21040064_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "3", "3", "3", "3", "3" ]
+        "ArrayString": [
+          "3",
+          "3",
+          "3",
+          "3",
+          "3"
+        ]
       },
       {
-        "ArrayString": [ "3%", "3.5%", "4%", "4.5%", "5%" ]
+        "ArrayString": [
+          "3%",
+          "3.5%",
+          "4%",
+          "4.5%",
+          "5%"
+        ]
       },
       {
-        "ArrayString": [ "3", "3", "3", "3", "3" ]
+        "ArrayString": [
+          "3",
+          "3",
+          "3",
+          "3",
+          "3"
+        ]
       },
       {
-        "ArrayString": [ "1", "1", "1", "1", "1" ]
+        "ArrayString": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21040064_TypeDescription",
@@ -3273,7 +4450,10 @@
     "WeaponType": 3,
     "ModelId": 21030043,
     "TransformId": 3,
-    "Models": [ 21030043, 21030043 ],
+    "Models": [
+      21030043,
+      21030043
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -3293,13 +4473,31 @@
     "Desc": "WeaponConf_21030043_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "8", "9", "10", "11", "12" ]
+        "ArrayString": [
+          "8",
+          "9",
+          "10",
+          "11",
+          "12"
+        ]
       },
       {
-        "ArrayString": [ "20", "20", "20", "20", "20" ]
+        "ArrayString": [
+          "20",
+          "20",
+          "20",
+          "20",
+          "20"
+        ]
       },
       {
-        "ArrayString": [ "1", "1", "1", "1", "1" ]
+        "ArrayString": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21030043_TypeDescription",
@@ -3328,7 +4526,10 @@
     "WeaponType": 4,
     "ModelId": 21140043,
     "TransformId": 4,
-    "Models": [ 21140043, 21040043 ],
+    "Models": [
+      21140043,
+      21040043
+    ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
       "Id": 7,
@@ -3348,13 +4549,31 @@
     "Desc": "WeaponConf_21040043_Desc",
     "DescParams": [
       {
-        "ArrayString": [ "8", "9", "10", "11", "12" ]
+        "ArrayString": [
+          "8",
+          "9",
+          "10",
+          "11",
+          "12"
+        ]
       },
       {
-        "ArrayString": [ "20", "20", "20", "20", "20" ]
+        "ArrayString": [
+          "20",
+          "20",
+          "20",
+          "20",
+          "20"
+        ]
       },
       {
-        "ArrayString": [ "1", "1", "1", "1", "1" ]
+        "ArrayString": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
       }
     ],
     "TypeDescription": "WeaponConf_21040043_TypeDescription",
