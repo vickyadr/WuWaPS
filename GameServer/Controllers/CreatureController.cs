@@ -28,7 +28,7 @@ internal class CreatureController : Controller
     {
         _modelManager.Creature.SetSceneLoadingData(instanceId);
         CreateTeamPlayerEntities();
-        CreateWorldEntities();
+        //CreateWorldEntities();
 
         await Session.Push(MessageId.JoinSceneNotify, new JoinSceneNotify
         {

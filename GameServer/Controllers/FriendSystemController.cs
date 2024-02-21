@@ -14,9 +14,9 @@ internal class FriendSystemController : Controller
     [NetEvent(MessageId.FriendAllRequest)]
     public RpcResult OnFriendAllRequest() => Response(MessageId.FriendAllResponse, new FriendAllResponse
     {
-        FriendInfoList = 
+        FriendInfoList =
         {
-            CreateDummyFriendInfo(1338, "Yangyang", "Reversed", 1402)
+            CreateDummyFriendInfo(1338, "Yangyang", "Command Assistant", 1402)
         }
     });
 

@@ -28,7 +28,7 @@ internal class ChatTeleCommandHandler
         _session = session;
         _configManager = configManager;
     }
-    
+
     [ChatCommand("pos")]
     [ChatCommandDesc("/tp pos [optional-MapId] [x] [y] [z] - teleport to specified coordinates")]
     public async Task OnPossitionTeleCommand(string[] args)
@@ -48,17 +48,19 @@ internal class ChatTeleCommandHandler
 
         await _session.Push(MessageId.TeleportNotify, new TeleportNotify
         {
-            PosX = x,
-            PosY = y,
-            PosZ = z,
+            PosX = x * 100,
+            PosY = y * 100,
+            PosZ = z * 100,
             PosA = 0,
             MapId = mId,
-            Reason = (int)TeleportReason.Gm, TransitionOption = new TransitionOptionPb
+            Reason = (int)TeleportReason.Gm,
+            TransitionOption = new TransitionOptionPb
             {
                 TransitionType = (int)TransitionType.Empty
             }
         });
 
-        _helperRoom.AddMessage(1338, 0, $"Successfully teleport to ({x}, {y}, {z}){(mId!=8 ? $" map id {mId}":"")}");
+        _helperRoom.AddMessage(1338, 0, $"(Successfully teleport to ({x}, {y}, {z}){(mId != 8 ? $" map id {mId}" : "")}");
+
     }
 }

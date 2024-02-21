@@ -17,6 +17,7 @@ internal class ChatSpawnCommandHandler
     private readonly PlayerSession _session;
     private readonly ConfigManager _configManager;
     private readonly CreatureController _creatureController;
+    private readonly ModelManager _modelManager;
 
     public ChatSpawnCommandHandler(ModelManager modelManager, EntitySystem entitySystem, EntityFactory entityFactory, PlayerSession session, ConfigManager configManager, CreatureController creatureController)
     {
@@ -26,6 +27,7 @@ internal class ChatSpawnCommandHandler
         _session = session;
         _configManager = configManager;
         _creatureController = creatureController;
+        _modelManager = modelManager;
     }
 
     [ChatCommand("monster")]
@@ -33,10 +35,10 @@ internal class ChatSpawnCommandHandler
     public async Task OnSpawnMonsterCommand(string[] args)
     {
         if (args.Length == 1)
-            args = [.. args, 
-            ((int)Program._playerLocation.X + 250).ToString(),
-            ((int)Program._playerLocation.Y + 250).ToString(),
-            ((int)Program._playerLocation.Z).ToString()];
+            args = [.. args,
+            ((int)(_modelManager.Player.Position.X + 250)/100).ToString(),
+            ((int)(_modelManager.Player.Position.Y + 250)/100).ToString(),
+            ((int)(_modelManager.Player.Position.Z + 250)/100).ToString()];
 
         if (args.Length != 4 ||
             !(int.TryParse(args[0], out int levelEntityId) &&
@@ -51,9 +53,9 @@ internal class ChatSpawnCommandHandler
         MonsterEntity monster = _entityFactory.CreateMonster(levelEntityId);
         monster.Pos = new()
         {
-            X = x*100,
-            Y = y*100,
-            Z = z*100
+            X = x * 100,
+            Y = y * 100,
+            Z = z * 100
         };
 
         _entitySystem.Create(monster);

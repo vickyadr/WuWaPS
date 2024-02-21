@@ -80,7 +80,7 @@ internal class PlayerInfoController : Controller
             Info = new PlayerDetails
             {
                 Name = "Yangyang",
-                Signature = "Reversed",
+                Signature = "Command Assistant",
                 HeadId = 1402,
                 PlayerId = 1338,
                 IsOnline = true,

@@ -20,6 +20,6 @@ internal class MoveController : Controller
     [NetEvent(MessageId.MovePackagePush)]
     public void OnMovePackagePush(MovePackagePush movePackagePush)
     {
-        Program._playerLocation = movePackagePush.MovingEntities[0].MoveInfos[0].Location;
+        _modelManager.Player.Position.MergeFrom(movePackagePush.MovingEntities[0].MoveInfos[0].Location);
     }
 }
