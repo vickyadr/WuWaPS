@@ -45,9 +45,9 @@ internal class ChatSpawnCommandHandler
         MonsterEntity monster = _entityFactory.CreateMonster(levelEntityId);
         monster.Pos = new()
         {
-            X = x,
-            Y = y,
-            Z = z
+            X = x*100,
+            Y = y*100,
+            Z = z*100
         };
 
         _entitySystem.Create(monster);

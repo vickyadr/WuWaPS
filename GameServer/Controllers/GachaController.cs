@@ -22,7 +22,7 @@ internal class GachaController : Controller
 	}
 
 	[NetEvent(MessageId.GachaRequest)]
-	public ResponseMessage OnGachaRequest(GachaRequest request)
+	public RpcResult OnGachaRequest(GachaRequest request)
 	{
         GachaResponse response = new()
         {
@@ -50,7 +50,7 @@ internal class GachaController : Controller
 	}
 
 	[NetEvent(MessageId.GachaUsePoolRequest)]
-	public ResponseMessage OnGachaUsePoolRequest(GachaUsePoolRequest request)
+	public RpcResult OnGachaUsePoolRequest(GachaUsePoolRequest request)
 	{
 		return Controller.Response<GachaUsePoolResponse>((MessageId)12057, new GachaUsePoolResponse
 		{
@@ -59,7 +59,7 @@ internal class GachaController : Controller
 	}
 
 	[NetEvent(MessageId.GachaInfoRequest)]
-	public ResponseMessage OnGachaInfoRequest()
+	public RpcResult OnGachaInfoRequest()
 	{
 		return Response(MessageId.GachaInfoResponse, new GachaInfoResponse()
         {

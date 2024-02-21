@@ -12,12 +12,17 @@ internal class InventoryController : Controller
     }
 
     [NetEvent(MessageId.NormalItemRequest)]
-	public ResponseMessage OnNormalItemRequest()
+	public RpcResult OnNormalItemRequest()
 	{
 		return Controller.Response(MessageId.NormalItemResponse, new NormalItemResponse
 		{
 			NormalItemList = 
 			{
+				new NormalItem
+				{
+					Id = 50001,
+					Count = 1600
+				},
 				new NormalItem
 				{
 					Id = 50002,
@@ -28,7 +33,7 @@ internal class InventoryController : Controller
 	}
 
     [NetEvent(MessageId.WeaponItemRequest)]
-    public ResponseMessage OnWeaponItemRequest() {
+    public RpcResult OnWeaponItemRequest() {
 		
 		return Controller.Response(MessageId.WeaponItemResponse, new WeaponItemResponse{
 			WeaponItemList = {
@@ -215,8 +220,8 @@ internal class InventoryController : Controller
 	}
 
     [NetEvent(MessageId.PhantomItemRequest)]
-    public ResponseMessage OnPhantomItemRequest() => Response(MessageId.PhantomItemResponse, new PhantomItemResponse());
+    public RpcResult OnPhantomItemRequest() => Response(MessageId.PhantomItemResponse, new PhantomItemResponse());
 
     [NetEvent(MessageId.ItemExchangeInfoRequest)]
-    public ResponseMessage OnItemExchangeInfoRequest() => Response(MessageId.ItemExchangeInfoResponse, new ItemExchangeInfoResponse());
+    public RpcResult OnItemExchangeInfoRequest() => Response(MessageId.ItemExchangeInfoResponse, new ItemExchangeInfoResponse());
 }

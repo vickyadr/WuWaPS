@@ -41,8 +41,7 @@ internal static class ConfigHandler
                 new LoginServerEntry
                 {
                     Id = "1074",
-                    //Name = "ReversedRooms",
-                    Name = "Yeryx",
+                    Name = "ReversedRooms",
                     Ip = "127.0.0.1"
                 }
             ],

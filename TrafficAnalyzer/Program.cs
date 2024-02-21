@@ -29,8 +29,6 @@ internal static class Program
             inList.Add(Tuple.Create(messageId, payload));
         }
 
-        Console.Clear();
-
         foreach ((int messageId, byte[] payload) in inList)
         {
             string messageName = ((MessageId)messageId).ToString();
