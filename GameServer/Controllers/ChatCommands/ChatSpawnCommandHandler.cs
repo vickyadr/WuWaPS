@@ -29,16 +29,22 @@ internal class ChatSpawnCommandHandler
     }
 
     [ChatCommand("monster")]
-    [ChatCommandDesc("/spawn monster [id] [x] [y] [z] - spawns monster with specified id and coordinates")]
+    [ChatCommandDesc("/spawn monster [id] [optional : [x] [y] [z]] - spawns monster with specified id")]
     public async Task OnSpawnMonsterCommand(string[] args)
     {
+        if (args.Length == 1)
+            args = [.. args, 
+            ((int)Program._playerLocation.X + 250).ToString(),
+            ((int)Program._playerLocation.Y + 250).ToString(),
+            ((int)Program._playerLocation.Z).ToString()];
+
         if (args.Length != 4 ||
             !(int.TryParse(args[0], out int levelEntityId) &&
             int.TryParse(args[1], out int x) &&
             int.TryParse(args[2], out int y) &&
             int.TryParse(args[3], out int z)))
         {
-            _helperRoom.AddMessage(1338, 0, "Usage: /spawn monster [id] [x] [y] [z]");
+            _helperRoom.AddMessage(1338, 0, "Usage: \r\n/spawn monster [id] \r\n/spawn monster [id] [x] [y] [z]");
             return;
         }
 

@@ -42,7 +42,7 @@ internal class ChatTeleCommandHandler
         int.TryParse(args[2], out int y) &&
         int.TryParse(args[3], out int z)))
         {
-            _helperRoom.AddMessage(1338, 0, "Usage: /tp pos [optional-MapId] [x] [y] [z]");
+            _helperRoom.AddMessage(1338, 0, "Usage: \r\n/tp pos [x] [y] [z] \r\n/tp pos [map-id] [x] [y] [z]");
             return;
         }
 
@@ -51,6 +51,7 @@ internal class ChatTeleCommandHandler
             PosX = x,
             PosY = y,
             PosZ = z,
+            PosA = 0,
             MapId = mId,
             Reason = (int)TeleportReason.Gm, TransitionOption = new TransitionOptionPb
             {

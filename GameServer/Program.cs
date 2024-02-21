@@ -1,4 +1,5 @@
-﻿using Core.Config;
+﻿using System.Numerics;
+using Core.Config;
 using Core.Extensions;
 using GameServer.Controllers.ChatCommands;
 using GameServer.Controllers.Combat;
@@ -22,6 +23,8 @@ namespace GameServer;
 
 internal static class Program
 {
+    internal static Protocol.Vector _playerLocation = new();
+
     private static async Task Main(string[] args)
     {
         Console.Title = "Wuthering Waves | Game Server";
@@ -54,7 +57,7 @@ internal static class Program
         {
             logger.LogInformation("Server started! Let's play Wuthering Waves!");
         });
-
+        
         await host.RunAsync();
     }
 
