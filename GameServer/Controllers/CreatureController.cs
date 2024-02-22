@@ -113,7 +113,8 @@ internal class CreatureController : Controller
                 newEntities.Select(entity => entity.Pb)
             }
         });
-
+        
+        // Response
         _modelManager.Creature.PlayerEntityId = newEntities.First().Id;
         await Session.Push(MessageId.UpdatePlayerAllFightRoleNotify, new UpdatePlayerAllFightRoleNotify
         {
