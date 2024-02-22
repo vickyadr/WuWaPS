@@ -2,6 +2,7 @@
 using GameServer.Controllers.Attributes;
 using GameServer.Models;
 using GameServer.Network;
+using GameServer.Extensions.Logic;
 using GameServer.Systems.Event;
 using Protocol;
 
@@ -23,6 +24,8 @@ internal class RoleController : Controller
 
             WeaponItem weapon = modelManager.Inventory.AddNewWeapon(roleConfig.InitWeaponItemId);
             weapon.RoleId = role.RoleId;
+
+            role.ApplyWeaponProperties(configManager.GetConfig<WeaponConfig>(weapon.Id)!);
         }
     }
 
@@ -45,6 +48,15 @@ internal class RoleController : Controller
         return Response(MessageId.SwitchRoleResponse, new SwitchRoleResponse
         {
             RoleId = request.RoleId
+        });
+    }
+
+    [NetEvent(MessageId.RoleLevelUpViewRequest)]
+    public RpcResult OnRoleLevelUpRequest()
+    {
+        return Response(MessageId.PbGetRoleListResponse, new RoleLevelUpViewResponse()
+        {
+            AddExp = 2000
         });
     }
 

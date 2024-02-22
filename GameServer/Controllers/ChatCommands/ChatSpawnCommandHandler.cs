@@ -36,9 +36,11 @@ internal class ChatSpawnCommandHandler
     {
         if (args.Length == 1)
             args = [.. args,
-            ((int)(_modelManager.Player.Position.X + 250)/100).ToString(),
-            ((int)(_modelManager.Player.Position.Y + 250)/100).ToString(),
-            ((int)(_modelManager.Player.Position.Z + 250)/100).ToString()];
+            ((int)_modelManager.Player.Position.X + 250).ToString(),
+            ((int)_modelManager.Player.Position.Y + 250).ToString(),
+            ((int)_modelManager.Player.Position.Z + 250).ToString()];
+        else if (args.Length == 4)
+            for (int i = 1; i < 4; i++) args[i] += "00";
 
         if (args.Length != 4 ||
             !(int.TryParse(args[0], out int levelEntityId) &&
@@ -53,9 +55,9 @@ internal class ChatSpawnCommandHandler
         MonsterEntity monster = _entityFactory.CreateMonster(levelEntityId);
         monster.Pos = new()
         {
-            X = x * 100,
-            Y = y * 100,
-            Z = z * 100
+            X = x,
+            Y = y,
+            Z = z
         };
 
         _entitySystem.Create(monster);
@@ -69,6 +71,6 @@ internal class ChatSpawnCommandHandler
 
         await _creatureController.UpdateAiHate();
 
-        _helperRoom.AddMessage(1338, 0, $"Successfully spawned monster with id {levelEntityId} at ({x}, {y}, {z})");
+        _helperRoom.AddMessage(1338, 0, $"Successfully spawned monster with id {levelEntityId} at ({x / 100}, {y / 100}, {z / 100})");
     }
 }
