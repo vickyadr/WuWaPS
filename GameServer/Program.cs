@@ -1,6 +1,4 @@
-﻿using System.Net.Http.Headers;
-using System.Numerics;
-using Core.Config;
+﻿using Core.Config;
 using Core.Extensions;
 using GameServer.Controllers.ChatCommands;
 using GameServer.Controllers.Combat;
@@ -24,13 +22,11 @@ namespace GameServer;
 
 internal static class Program
 {
-    //internal static Protocol.Vector _playerLocation = new() { X = -84500, Y = 164500, Z = 2000 };
-
     private static async Task Main(string[] args)
     {
         Console.Title = "Wuthering Waves | Game Server";
         Console.WriteLine(" __      __        __  .__                 .__                  __      __                            \r\n/  \\    /  \\__ ___/  |_|  |__   ___________|__| ____    ____   /  \\    /  \\_____ ___  __ ____   ______\r\n\\   \\/\\/   /  |  \\   __\\  |  \\_/ __ \\_  __ \\  |/    \\  / ___\\  \\   \\/\\/   /\\__  \\\\  \\/ // __ \\ /  ___/\r\n \\        /|  |  /|  | |   Y  \\  ___/|  | \\/  |   |  \\/ /_/  >  \\        /  / __ \\\\   /\\  ___/ \\___ \\ \r\n  \\__/\\  / |____/ |__| |___|  /\\___  >__|  |__|___|  /\\___  /    \\__/\\  /  (____  /\\_/  \\___  >____  >\r\n       \\/                   \\/     \\/              \\//_____/          \\/        \\/          \\/     \\/ \r\n\r\n\t\t\t\t\t\t\t\t\t\t\t\tGame Server\n");
-
+        
         HostApplicationBuilder builder = Host.CreateApplicationBuilder(args);
         builder.Logging.AddConsole();
 

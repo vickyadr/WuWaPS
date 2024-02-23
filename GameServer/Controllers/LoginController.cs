@@ -15,10 +15,10 @@ internal class LoginController : Controller
     public async Task<RpcResult> OnLoginRequest(EventSystem eventSystem)
     {
         await eventSystem.Emit(GameEventType.Login);
-        
+
         // Debug
         await eventSystem.Emit(GameEventType.DebugUnlockAllRoles);
-        await eventSystem.Emit(GameEventType.DebugUnlockAllWeapons);
+        await eventSystem.Emit(GameEventType.DebugUnlockAllItems);
 
         return Response(MessageId.LoginResponse, new LoginResponse
         {

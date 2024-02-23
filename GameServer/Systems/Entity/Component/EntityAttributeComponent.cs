@@ -19,6 +19,7 @@ internal class EntityAttributeComponent : EntityComponentBase
             SetAttribute((EAttributeType)attr.AttributeType, attr.CurrentValue, attr.BaseValue);
         }
     }
+
     public void SetAttribute(EAttributeType type, int currentValue, int baseValue)
     {
         if (!_gameplayAttributes.TryGetValue(type, out GameplayAttributeData? attribute))

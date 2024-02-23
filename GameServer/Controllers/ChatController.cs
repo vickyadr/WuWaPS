@@ -45,6 +45,8 @@ internal partial class ChatController : Controller
         {
             string content = MultipleSpacesRegex().Replace(request.Content, " ");
             string[] split = content[1..].Split(' ');
+            split = split.Where(x => !string.IsNullOrEmpty(x)).ToArray();
+
             if (split.Length >= 2)
             {
                 await chatCommandManager.InvokeCommandAsync(split[0], split[1], split[2..]);
