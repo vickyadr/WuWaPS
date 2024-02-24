@@ -18,8 +18,9 @@ internal class ChatTeleCommandHandler
     private readonly EntityFactory _entityFactory;
     private readonly PlayerSession _session;
     private readonly ConfigManager _configManager;
+    private readonly CreatureController _creatureController;
 
-    public ChatTeleCommandHandler(ModelManager modelManager, EntitySystem entitySystem, EntityFactory entityFactory, PlayerSession session, ConfigManager configManager)
+    public ChatTeleCommandHandler(CreatureController creatureController, ModelManager modelManager, EntitySystem entitySystem, EntityFactory entityFactory, PlayerSession session, ConfigManager configManager)
     {
         _helperRoom = modelManager.Chat.GetChatRoom(1338);
         _modelManager = modelManager;
@@ -27,6 +28,7 @@ internal class ChatTeleCommandHandler
         _entityFactory = entityFactory;
         _session = session;
         _configManager = configManager;
+        _creatureController = creatureController;
     }
 
     [ChatCommand("pos")]
@@ -60,7 +62,47 @@ internal class ChatTeleCommandHandler
             }
         });
 
-        _helperRoom.AddMessage(1338, 0, $"(Successfully teleport to ({x}, {y}, {z}){(mId != 8 ? $" map id {mId}" : "")}");
+        _helperRoom.AddMessage(1338, 0, $"Successfully teleport to ({x}, {y}, {z}){(mId != 8 ? $" map id {mId}" : "")}");
+    }
 
+    [ChatCommand("world")]
+    public async Task OnWorldTeleCommand(string[] args)
+    {
+        _modelManager.Creature.SetSceneLoadingData(2021);
+        //CreateWorldEntities();
+
+        await _session.Push(MessageId.JoinSceneNotify, new JoinSceneNotify
+        {
+            MaxEntityId = 100,
+            TransitionOption = new TransitionOptionPb
+            {
+                TransitionType = (int)TransitionType.Empty
+
+            },
+            SceneInfo = new SceneInformation
+            {
+                InstanceId = 2021,
+                OwnerId = _modelManager.Creature.OwnerId,
+                CurContextId = _modelManager.Player.Id,
+                TimeInfo = new(),
+                AoiData = new PlayerSceneAoiData
+                {
+                    Entities = { _entitySystem.Pb }
+                },
+                PlayerInfos =
+                    {
+                        new ScenePlayerInformation
+                        {
+                            PlayerId = _modelManager.Player.Id,
+                            Level = 1,
+                            IsOffline = false,
+                            Location = {X = 0, Y=0, Z =0 },
+                            PlayerName = _modelManager.Player.Name
+                        }
+                    }
+            }
+        });
+
+        _helperRoom.AddMessage(1338, 0, $"Change World");
     }
 }

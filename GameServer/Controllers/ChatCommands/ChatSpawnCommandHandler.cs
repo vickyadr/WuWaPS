@@ -36,17 +36,17 @@ internal class ChatSpawnCommandHandler
     {
         if (args.Length == 1)
             args = [.. args,
-            ((int)_modelManager.Player.Position.X + 250).ToString(),
-            ((int)_modelManager.Player.Position.Y + 250).ToString(),
-            ((int)_modelManager.Player.Position.Z + 250).ToString()];
+            ((float)_modelManager.Player.Position.X + 250).ToString(),
+            ((float)_modelManager.Player.Position.Y + 250).ToString(),
+            ((float)_modelManager.Player.Position.Z + 250).ToString()];
         else if (args.Length == 4)
             for (int i = 1; i < 4; i++) args[i] += "00";
 
         if (args.Length != 4 ||
             !(int.TryParse(args[0], out int levelEntityId) &&
-            int.TryParse(args[1], out int x) &&
-            int.TryParse(args[2], out int y) &&
-            int.TryParse(args[3], out int z)))
+            float.TryParse(args[1], out float x) &&
+            float.TryParse(args[2], out float y) &&
+            float.TryParse(args[3], out float z)))
         {
             _helperRoom.AddMessage(1338, 0, "Usage: \r\n/spawn monster [id] \r\n/spawn monster [id] [x] [y] [z]");
             return;

@@ -1,7 +1,10 @@
 ﻿using GameServer.Controllers.Attributes;
+using GameServer.Models;
 using GameServer.Network;
 using GameServer.Network.Messages;
+using GameServer.Settings;
 using GameServer.Systems.Event;
+using Microsoft.Extensions.Options;
 using Protocol;
 
 namespace GameServer.Controllers;
@@ -13,9 +16,10 @@ internal class WorldController : Controller
     }
 
     [GameEvent(GameEventType.EnterGame)]
-    public async Task OnEnterGame(CreatureController creatureController)
+    public async Task OnEnterGame(CreatureController creatureController, IOptions<GameplayFeatureSettings> gameplayFeatures)
     {
-        await creatureController.JoinScene(8);
+        
+        await creatureController.JoinScene(gameplayFeatures.Value.WorldScene);
     }
 
     [NetEvent(MessageId.EntityOnLandedRequest)]

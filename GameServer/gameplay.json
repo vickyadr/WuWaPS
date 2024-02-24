@@ -1,7 +1,11 @@
 {
   "StartingValues": {
     "Name": "Yeryx",
-    "Characters": [ 1502, 1402, 1102 ],
+    "Characters": [
+      1502,
+      1402,
+      1102
+    ],
     "Position": {
       "X": -84500,
       "Y": 164500,
@@ -9,6 +13,8 @@
     }
   },
   "Features": {
-    "TeleportByMapMark": true
+    "TeleportByMapMark": true,
+    "UnlimitedEnergy": true,
+    "WorldScene": 2021
   }
 }
